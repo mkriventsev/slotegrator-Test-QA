@@ -1,4 +1,4 @@
-# Slotegrator APU test
+# Slotegrator API test
 
 Developed in Java with Rest Assured 
 
@@ -7,7 +7,7 @@ Developed in Java with Rest Assured
 
 During the execution all request/recieve logs will be in the terminal window.
 
-##### /src/test/java/com/slotegrator/api/ folder:
+#### /src/test/java/com/slotegrator/api/ folder:
 
 `Constants.java` - Constants, like token,  URIs, Paths;
  
