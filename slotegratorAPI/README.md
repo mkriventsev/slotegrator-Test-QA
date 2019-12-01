@@ -17,9 +17,9 @@ During the execution all request/recieve logs will be in the terminal window.
  
  `RequestHelper.java` - helper for authentication, generate requests, set base urls, etc.
  
- #### /src/tst/resources folder:
+ #### /src/test/resources folder:
  
- Schemas of JSON response:
+ Schemas of JSON response for comparing during tests:
  * `createNewUserResponseJSONSchema.json` - create new player, `POST /players/` request 
  * `getUserResponseJSONSchema.json` - get info about player, `GET /players/{userId}` request 
  
