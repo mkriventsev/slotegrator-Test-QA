@@ -1,0 +1,156 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "id",
+    "country_id",
+    "timezone_id",
+    "username",
+    "email",
+    "name",
+    "surname",
+    "gender",
+    "phone_number",
+    "birthdate",
+    "bonuses_allowed",
+    "is_verified"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The Id Schema",
+      "default": 0,
+      "examples": [
+        1271
+      ]
+    },
+    "country_id": {
+      "$id": "#/properties/country_id",
+      "type": [
+        "integer",
+        "null"
+      ],
+      "title": "The Country_id Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "timezone_id": {
+      "$id": "#/properties/timezone_id",
+      "type": [
+        "integer",
+        "null"
+      ],
+      "title": "The Timezone_id Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "username": {
+      "$id": "#/properties/username",
+      "type": "string",
+      "title": "The Username Schema",
+      "default": "",
+      "examples": [
+        "maxkriv1574825648325"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "string",
+      "title": "The Email Schema",
+      "default": "",
+      "examples": [
+        "maxkriv1574825648325@gmail.com"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "The Name Schema",
+      "default": "",
+      "examples": [
+        "max"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "surname": {
+      "$id": "#/properties/surname",
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "The Surname Schema",
+      "default": "",
+      "examples": [
+        "kriv"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "gender": {
+      "$id": "#/properties/gender",
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "The Gender Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "phone_number": {
+      "$id": "#/properties/phone_number",
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "The Phone_number Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "birthdate": {
+      "$id": "#/properties/birthdate",
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "The Birthdate Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "bonuses_allowed": {
+      "$id": "#/properties/bonuses_allowed",
+      "type": "boolean",
+      "title": "The Bonuses_allowed Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "is_verified": {
+      "$id": "#/properties/is_verified",
+      "type": "boolean",
+      "title": "The Is_verified Schema",
+      "default": false,
+      "examples": [
+        false
+      ]
+    }
+  }
+}
