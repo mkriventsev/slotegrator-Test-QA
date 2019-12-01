@@ -6,15 +6,19 @@ Developed in Java with Selenium WebDriver, Cucumber
 `mvn clean test` - to run from command line. Also you may run them inside the IDE.
 
  `/src/test/java/com/slotegrator/ui/features` - feature files
+ 
  `/src/test/java/com/slotegrator/ui/steps` - steps implementation files
+ 
  `/src/test/java/com/slotegrator/ui/page_objects` - Page Object Model, with implementation functions of steps
+ 
  `/src/test/java/com/slotegrator/ui/RunTests.java` - test runner 
+ 
 ### Generated reports:
 * `/target/cucumber/cucumber-html-reports`-  [cucumber-reporting-plugin](https://gitlab.com/monochromata-de/cucumber-reporting-plugin) report
 * `/target/cucumber-html-report` - Default Cucumber report 
 * `/target/screenshots` -  In case of failed tests, screenshots will be there
 
-![](./img/report1.png)
+![](./img/report1.png))
 
 ![](./img/report2.png)
 
