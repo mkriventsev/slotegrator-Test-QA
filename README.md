@@ -1,5 +1,16 @@
-# Slotegrator UI test
+# slotegrator-Test
+
+## Slotegrator UI test
 Java + Selenium WebDriver + Cucumber 
 
-# Slotegrator API test
+### Execution
+```cd slotegratorUI```
+```mvn clean test```
+
+## Slotegrator API test
 Java + RestAssured
+
+### Execution
+```cd slotegratorAPI```
+```mvn clean test```
+
