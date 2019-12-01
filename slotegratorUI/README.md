@@ -5,6 +5,8 @@ Developed in Java with Selenium WebDriver, Cucumber
 ### Execution
 `mvn clean test` - to run from command line. Also you may run them inside the IDE.
 
+##### src/test folder structure:
+
  `/src/test/java/com/slotegrator/ui/features` - feature files
  
  `/src/test/java/com/slotegrator/ui/steps` - steps implementation files
